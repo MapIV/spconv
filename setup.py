@@ -14,8 +14,8 @@ from pccm.extension import PCCMBuild, PCCMExtension
 from setuptools import find_packages, setup
 from setuptools.extension import Extension
 
-# 使用するCUDAのバージョン（例: "11.8"）。
-CUMM_CUDA_VERSION = os.environ.get("CUMM_CUDA_VERSION", "")
+# 使用するCUDAのバージョン
+CUMM_CUDA_VERSION = os.environ.get("CUMM_CUDA_VERSION", "12.8")
 
 # --- パッケージのメタデータ定義 ---
 NAME = 'spconv'
